@@ -1,6 +1,6 @@
 body {
     /*  Barva pisave pod značko oz. oznako  */
-    color: #333333; 
+    color: #333333;
     /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
        Če ni nameščena nobena od naštetih pisav, se uporabi privzeta pisava brskalnika. */
     font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
@@ -20,14 +20,58 @@ body {
 }
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
-a { text-decoration: none; outline:none; }
+a {
+    text-decoration: none;
+    outline: none;
+}
+
 /*  Spremenimo barve povezav: neobiskanih, obiskanih, pod miško in aktivnih */
-a:link { color:#cc0000; }
-a:visited { color:#660066; }
-a:hover { color:#660066; }
-a:active { color:#990000; outline:none; }
+a:link {
+    color: #cc0000;
+}
+
+a:visited {
+    color: #660066;
+}
+
+a:hover {
+    color: #660066;
+}
+
+a:active {
+    color: #990000;
+    outline: none;
+}
 
 code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: #009966;
+}
+
+h1 {
+    color: #330066;
+}
+
+h2 {
+    margin-top: 2em;
+    border-top: 1px #AAAAAA solid;
+    padding-top: 0.5em;
+}
+
+#uvod {
+    padding: 2em;
+    background-color: rgb(51, 0, 102, 0.1);
+}
+
+.slika {
+    font-size: 0.9em;
+    width: 40%;
+    text-align: left;
+    float: right;
+    margin-left: 2em;
+}
+
+.slika img {
+    width: 100%;
+    height: auto;
 }
