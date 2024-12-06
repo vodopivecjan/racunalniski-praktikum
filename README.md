@@ -1,16 +1,4 @@
-<!-- glavni naslov -->
-# Računalniški praktikum
-<!-- To je komentar, ki bo na prikazanem Markdown-u skrit. 
-     V tem besedilu so v komentarjih napisana navodila za reševanje. -->
-
-<!-- 2. nivojski razdelek -->
-## Bližnjice na tipkovnici
-
-- *Kopiraj* označeno v odložišče: Ctrl+C (**C**opy)
-- *Izreži* označeno v odložišče: Ctrl+X
-- *Prilepi* vsebino odložišča: Ctrl+V
-- (VSCode) Odpri command palette v VSCode: Ctrl + Shift + P  
-- (VSCode) nova datoteka v trenutni mapi: Ctrl + Alt + Windows + N  
+ + Windows + N  
 - (VSCode) izbriše trenutno vrstico: Ctrl + Shift + K
 
 <!-- 2. nivojski razdelek -->
@@ -40,3 +28,4 @@ Včasih pride prav značka `kbd` za tipke. Značko uporabimo takole:
 2. [Računalniški sistemi, storitve in oprema za študente](https://ucilnica.fmf.uni-lj.si/mod/page/view.php?id=51619)
 3. [Zapiski in vaje za Računalniški praktikum](http://katjabercic.github.io/racunalniski-praktikum)
 4. [Dokumentacija za Markdown na GitHubu](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+5. [Moja spletna stran](https://vodopivecjan.github.io/)
